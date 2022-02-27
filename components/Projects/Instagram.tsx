@@ -21,7 +21,7 @@ function Instagram() {
                 <GridItem py={2} shadow='xl' rounded={'lg'} borderWidth={'thin'}  >
                     <Box alignItems={'flex-end'} gap={4} display={['', '', 'flex', 'flex']} px={'4'} py={2}  >
                         <VStack   >
-                            <Image src={InstaPic} />
+                            <Image alt="Picture of project" src={InstaPic} />
 
                             <HStack>
                                 <Link isExternal href='https://insta-mauve.vercel.app/' _hover={{ decoration: 'none' }}>
@@ -86,7 +86,7 @@ function Instagram() {
                 <GridItem py={2} shadow='xl' rounded={'lg'} borderWidth={'thin'}  >
                     <Box alignItems={'flex-end'} gap={4} display={['', '', 'flex', 'flex']} px={'4'} py={2}  >
                         <VStack gap={[0, 0, 12, 12]}  >
-                            <Image height={250} width={250} src={GptPic} />
+                            <Image alt="Picture of project" height={250} width={250} src={GptPic} />
 
                             <HStack>
                                 <Link isExternal href='https://gpt-woad.vercel.app/' _hover={{ decoration: 'none' }}>
@@ -152,7 +152,7 @@ function Instagram() {
                 <GridItem py={2} shadow='xl' rounded={'lg'} borderWidth={'thin'}  >
                     <Box alignItems={'flex-end'} gap={4} display={['', '', 'flex', 'flex']} px={'4'} py={2}  >
                         <VStack  >
-                            <Image height={200} width={200} src={UpworkPic} />
+                            <Image alt="Picture of project" height={200} width={200} src={UpworkPic} />
 
                             <HStack>
                                 {/* <Link isExternal href='https://gpt-woad.vercel.app/' _hover={{ decoration: 'none' }}>
