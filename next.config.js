@@ -6,7 +6,10 @@ const nextConfig = {
     loader: "akamai",
     path: "/",
   },
-  assetPrefix: isProd ? "/portfolio/" : "",
+  env: {
+    PUBLIC_URL: "https://your-organization-or-username.github.io/my-nextjs-app",
+    assetPrefix: "./",
+  },
 };
 
 module.exports = nextConfig;
