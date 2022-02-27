@@ -16,7 +16,7 @@ function Intro() {
                 </Stack>
             </GridItem>
             <GridItem>
-                <Image height={500} width={500} src={Coder} />
+                <Image alt="Picture of coder" height={500} width={500} src={Coder} />
             </GridItem>
         </Grid>
     )
