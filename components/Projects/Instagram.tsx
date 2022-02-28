@@ -18,7 +18,8 @@ function Instagram() {
 
         <VStack>
             <Grid templateColumns={['repeat(1  , 1fr)', 'repeat(1  , 1fr)', 'repeat(1  , 1fr)', 'repeat(2  , 1fr)']} gap={4}>
-                <GridItem py={2} shadow='xl' rounded={'lg'} borderWidth={'thin'}  >
+                <GridItem data-aos-duration="600"
+                    data-aos-easing="ease-in-out" data-aos-once="true" data-aos="zoom-in-up" py={2} shadow='xl' rounded={'lg'} borderWidth={'thin'}  >
                     <Box alignItems={'flex-end'} gap={4} display={['', '', 'flex', 'flex']} px={'4'} py={2}  >
                         <VStack   >
                             <Image alt="Picture of project" src={InstaPic} />
@@ -83,7 +84,8 @@ function Instagram() {
                     </Box>
                 </GridItem>
 
-                <GridItem py={2} shadow='xl' rounded={'lg'} borderWidth={'thin'}  >
+                <GridItem data-aos-duration="600"
+                    data-aos-easing="ease-in-out" data-aos-once="true" data-aos="zoom-in-up" py={2} shadow='xl' rounded={'lg'} borderWidth={'thin'}  >
                     <Box alignItems={'flex-end'} gap={4} display={['', '', 'flex', 'flex']} px={'4'} py={2}  >
                         <VStack gap={[0, 0, 12, 12]}  >
                             <Image placeholder="blur" alt="Picture of project" height={250} width={250} src={GptPic} />
@@ -149,7 +151,10 @@ function Instagram() {
                         </Stack>
                     </Box>
                 </GridItem>
-                <GridItem py={2} shadow='xl' rounded={'lg'} borderWidth={'thin'}  >
+                <GridItem
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true" data-aos="zoom-in-up" py={2} shadow='xl' rounded={'lg'} borderWidth={'thin'}  >
                     <Box alignItems={'flex-end'} gap={4} display={['', '', 'flex', 'flex']} px={'4'} py={2}  >
                         <VStack  >
                             <Image alt="Picture of project" height={200} width={200} src={UpworkPic} />
@@ -228,7 +233,7 @@ function Instagram() {
                     </Box>
                 </GridItem>
             </Grid>
-        </VStack>
+        </VStack >
 
     )
 }
