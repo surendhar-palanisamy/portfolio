@@ -51,7 +51,21 @@ function SkillIndex() {
                     <GridItem>  <Tag>
                         <TagLabel>Redux</TagLabel>
                     </Tag></GridItem>
-
+                    <GridItem >
+                        <Tag colorScheme='teal'>
+                            <TagLabel>RTL</TagLabel>
+                        </Tag>
+                    </GridItem>
+                    <GridItem >
+                        <Tag colorScheme='teal'>
+                            <TagLabel>Jest</TagLabel>
+                        </Tag>
+                    </GridItem>
+                    <GridItem >
+                        <Tag colorScheme='teal'>
+                            <TagLabel>Cypress</TagLabel>
+                        </Tag>
+                    </GridItem>
                 </Grid>
 
             </Stack>
