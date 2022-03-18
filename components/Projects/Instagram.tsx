@@ -76,6 +76,21 @@ function Instagram() {
                                         <TagLabel>Recoil</TagLabel>
                                     </Tag>
                                 </GridItem>
+                                <GridItem >
+                                    <Tag colorScheme='teal'>
+                                        <TagLabel>RTL</TagLabel>
+                                    </Tag>
+                                </GridItem>
+                                <GridItem >
+                                    <Tag colorScheme='teal'>
+                                        <TagLabel>Jest</TagLabel>
+                                    </Tag>
+                                </GridItem>
+                                <GridItem >
+                                    <Tag colorScheme='teal'>
+                                        <TagLabel>Cypress</TagLabel>
+                                    </Tag>
+                                </GridItem>
 
 
 
