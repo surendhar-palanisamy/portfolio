@@ -12,32 +12,32 @@ import Image from 'next/image';
 import InstaPic from '../../public/insta3.jpg'
 import UpworkPic from '../../public/upwork.jpg'
 import GptPic from '../../public/Headerportfolio.png';
-import Cryptoverse from '../../public/cryptoverse.jpg'
+import Ecom from '../../public/ecom_logo.jpg'
 
-
-function Instagram() {
+function Phanox() {
   return (
     
     <GridItem data-aos-duration="600"
     data-aos-easing="ease-in-out" data-aos-once="true" data-aos="zoom-in-up" py={2} shadow='xl' rounded={'lg'} borderWidth={'thin'}  >
     <Box alignItems={'flex-end'} gap={4} display={['', '', 'flex', 'flex']} px={'4'} py={2}  >
         <VStack   >
-            <Image alt="Picture of project" src={InstaPic} />
+            <Box  pb={['','','','8']}>
+            <Image height={200} width={200} alt="Picture of project" src={Ecom} />
+            </Box>
 
             <HStack>
-                <Link isExternal href='https://insta-mauve.vercel.app/' _hover={{ decoration: 'none' }}>
+                <Link isExternal href='https://phanox-beta.vercel.app/' _hover={{ decoration: 'none' }}>
                     <Button size={'sm'} leftIcon={<CgWebsite />}  > Demo</Button>
                 </Link>
-                <Link isExternal href='https://github.com/surendhar-palanisamy/insta' _hover={{ decoration: 'none' }}>
+                <Link isExternal href='https://github.com/surendhar-palanisamy/Phanox' _hover={{ decoration: 'none' }}>
                     <Button size={'sm'} leftIcon={<FaGithubAlt />} >Github</Button></Link>
             </HStack>
 
         </VStack>
-        <Stack  >
-            <Text fontWeight={'semibold'} fontSize={'xl'}>Instagram Clone</Text>
-            <Text w={['', '', '300px', '300px']}>
-                The idea of this website is to create a usable copy of a popular media sharing app  using a serverless backend having a realtime EventListeners and
-                Providing the end user with app monitoring functionalities
+        <Stack >
+            <Text fontWeight={'semibold'} fontSize={'xl'} pt={['','','','2']}>Phanox</Text>
+            <Text w={['', '', '300px', '300px']} pb={['','','','10']}>
+            Modern Ecommerce website to buy tech online with checkout,Stripe payment integration , shipping facilites and live banner updates
 
             </Text>
             <Grid w={['', '', '300px', '300px']} gap={3} templateColumns='repeat(3, 0fr)'>
@@ -51,6 +51,12 @@ function Instagram() {
                         <TagLabel>NextJs</TagLabel>
                     </Tag>
                 </GridItem>
+               
+                <GridItem >
+                    <Tag colorScheme='teal'>
+                        <TagLabel>Redux Toolkit</TagLabel>
+                    </Tag>
+                </GridItem>
                 <GridItem >
                     <Tag colorScheme='teal'>
                         <TagLabel>TypeScript</TagLabel>
@@ -58,22 +64,17 @@ function Instagram() {
                 </GridItem>
                 <GridItem >
                     <Tag colorScheme='teal'>
-                        <TagLabel>Firebase</TagLabel>
+                        <TagLabel>Sanity CMS</TagLabel>
                     </Tag>
                 </GridItem>
                 <GridItem >
                     <Tag colorScheme='teal'>
-                        <TagLabel>OAuth</TagLabel>
+                        <TagLabel>Stripe</TagLabel>
                     </Tag>
                 </GridItem>
                 <GridItem >
                     <Tag colorScheme='teal'>
                         <TagLabel>ChakraUI</TagLabel>
-                    </Tag>
-                </GridItem>
-                <GridItem >
-                    <Tag colorScheme='teal'>
-                        <TagLabel>Recoil</TagLabel>
                     </Tag>
                 </GridItem>
             </Grid>
@@ -83,4 +84,4 @@ function Instagram() {
   )
 }
 
-export default Instagram
+export default Phanox

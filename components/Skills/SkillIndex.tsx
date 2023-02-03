@@ -58,14 +58,14 @@ function SkillIndex() {
                     </GridItem>
                     <GridItem >
                         <Tag >
-                            <TagLabel>Jest</TagLabel>
+                            <TagLabel>MaterialUI</TagLabel>
                         </Tag>
                     </GridItem>
-                    <GridItem >
+                    {/* <GridItem >
                         <Tag >
                             <TagLabel>Cypress</TagLabel>
                         </Tag>
-                    </GridItem>
+                    </GridItem> */}
                 </Grid>
 
             </Stack>
@@ -101,9 +101,9 @@ function SkillIndex() {
                     <GridItem>  <Tag>
                         <TagLabel>Web Sockets</TagLabel>
                     </Tag></GridItem>
-                    <GridItem>  <Tag>
+                    {/* <GridItem>  <Tag>
                         <TagLabel>Strapi</TagLabel>
-                    </Tag></GridItem>
+                    </Tag></GridItem> */}
                     <GridItem>  <Tag>
                         <TagLabel>NestJs</TagLabel>
                     </Tag></GridItem>

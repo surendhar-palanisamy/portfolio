@@ -14,30 +14,31 @@ import UpworkPic from '../../public/upwork.jpg'
 import GptPic from '../../public/Headerportfolio.png';
 import Cryptoverse from '../../public/cryptoverse.jpg'
 
-
-function Instagram() {
+function UpworkBackend() {
   return (
-    
-    <GridItem data-aos-duration="600"
-    data-aos-easing="ease-in-out" data-aos-once="true" data-aos="zoom-in-up" py={2} shadow='xl' rounded={'lg'} borderWidth={'thin'}  >
+    <GridItem
+    data-aos-duration="600"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true" data-aos="zoom-in-up" py={2} shadow='xl' rounded={'lg'} borderWidth={'thin'}  >
     <Box alignItems={'flex-end'} gap={4} display={['', '', 'flex', 'flex']} px={'4'} py={2}  >
-        <VStack   >
-            <Image alt="Picture of project" src={InstaPic} />
+        <VStack  >
+           <Box pt={['','','','5']}>
+           <Image  alt="Picture of project" height={200} width={200} src={UpworkPic} />
 
-            <HStack>
-                <Link isExternal href='https://insta-mauve.vercel.app/' _hover={{ decoration: 'none' }}>
+           </Box>
+            <HStack pt={['','','','5']}>
+                {/* <Link isExternal href='https://gpt-woad.vercel.app/' _hover={{ decoration: 'none' }}>
                     <Button size={'sm'} leftIcon={<CgWebsite />}  > Demo</Button>
-                </Link>
-                <Link isExternal href='https://github.com/surendhar-palanisamy/insta' _hover={{ decoration: 'none' }}>
+                </Link> */}
+                <Link isExternal href='https://github.com/surendhar-palanisamy/clone-backend' _hover={{ decoration: 'none' }}>
                     <Button size={'sm'} leftIcon={<FaGithubAlt />} >Github</Button></Link>
             </HStack>
 
         </VStack>
         <Stack  >
-            <Text fontWeight={'semibold'} fontSize={'xl'}>Instagram Clone</Text>
+            <Text fontWeight={'semibold'} fontSize={'xl'}>Freelance Work Search portal</Text>
             <Text w={['', '', '300px', '300px']}>
-                The idea of this website is to create a usable copy of a popular media sharing app  using a serverless backend having a realtime EventListeners and
-                Providing the end user with app monitoring functionalities
+                Website built for the online community to find and outsource jobs which can handle high webiste load and efficiently manage tasks
 
             </Text>
             <Grid w={['', '', '300px', '300px']} gap={3} templateColumns='repeat(3, 0fr)'>
@@ -53,27 +54,45 @@ function Instagram() {
                 </GridItem>
                 <GridItem >
                     <Tag colorScheme='teal'>
-                        <TagLabel>TypeScript</TagLabel>
+                        <TagLabel>Django</TagLabel>
                     </Tag>
                 </GridItem>
                 <GridItem >
                     <Tag colorScheme='teal'>
-                        <TagLabel>Firebase</TagLabel>
+                        <TagLabel>JavaScript</TagLabel>
+                    </Tag>
+                </GridItem>
+
+
+
+                <GridItem >
+                    <Tag colorScheme='teal'>
+                        <TagLabel>Heroku</TagLabel>
+                    </Tag>
+                </GridItem>
+
+                <GridItem >
+                    <Tag colorScheme='teal'>
+                        <TagLabel>TailWindCss</TagLabel>
+                    </Tag>
+                </GridItem>
+
+                <GridItem >
+                    <Tag colorScheme='teal'>
+                        <TagLabel>WebSockets</TagLabel>
+                    </Tag>
+                </GridItem>
+
+
+
+                <GridItem >
+                    <Tag colorScheme='teal'>
+                        <TagLabel>PostGreSQl</TagLabel>
                     </Tag>
                 </GridItem>
                 <GridItem >
                     <Tag colorScheme='teal'>
-                        <TagLabel>OAuth</TagLabel>
-                    </Tag>
-                </GridItem>
-                <GridItem >
-                    <Tag colorScheme='teal'>
-                        <TagLabel>ChakraUI</TagLabel>
-                    </Tag>
-                </GridItem>
-                <GridItem >
-                    <Tag colorScheme='teal'>
-                        <TagLabel>Recoil</TagLabel>
+                        <TagLabel>DRF</TagLabel>
                     </Tag>
                 </GridItem>
             </Grid>
@@ -83,4 +102,4 @@ function Instagram() {
   )
 }
 
-export default Instagram
+export default UpworkBackend
