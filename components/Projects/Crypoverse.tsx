@@ -85,7 +85,7 @@ function Crypoverse() {
                 </GridItem>
                 <GridItem >
                     <Tag colorScheme='teal'>
-                        <TagLabel>Redux ToolKit</TagLabel>
+                        <TagLabel>RTK</TagLabel>
                     </Tag>
                 </GridItem>
             </Grid>
